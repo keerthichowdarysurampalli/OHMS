@@ -5,7 +5,6 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <>
-
       <div className='flex flex-col  h-fit'>
         <div className='flex flex-row h-full gap-4 bg-gray-100 px-16 py-8'>
           <div className='flex flex-col  h-full gap-6'>
@@ -18,7 +17,8 @@ export default function Home() {
             <Link type="button" href={'/view-all-services'} className="text-gray-900 bg-white border w-fit border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" >View All Services</Link>
 
           </div>
-          <Image src={'/image.jpg'} alt='doctor and nure' width={600} height={600} className='rounded-xl shadow-2xl'></Image>
+        
+          <Image src={'/image.jpg'} alt='doctor and nure' width={600} height={600} className='rounded-xl shadow-2xl hidden md:flex'></Image>
         </div>
       </div>
 
