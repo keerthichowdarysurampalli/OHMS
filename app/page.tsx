@@ -12,7 +12,7 @@ export default function Home() {
         <div className='flex flex-row h-full gap-4 bg-gray-100 px-16 py-8'>
           <div className='flex flex-col  h-full gap-6'>
             <h1 className='text-7xl font-bold'>
-              Elevating Patient Care with Ohms
+              Elevating Patient Care with Ohms hello
             </h1>
             <p>
               Ohms is a hospital management app that offers streamlined patient tracking, medication management, and pharmacy integration. With an intuitive user interface, Ohms provides a comprehensive solution for better healthcare management.
